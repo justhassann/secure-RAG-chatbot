@@ -27,7 +27,7 @@ This project implements a "Defense-in-Depth" architecture:
 ### Setup
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/secure-rag-chatbot.git](https://github.com/YOUR_USERNAME/secure-rag-chatbot.git)
+    git clone [https://github.com/justhassann/secure-rag-chatbot.git](https://github.com/justhassann/secure-rag-chatbot.git)
     cd secure-rag-chatbot
     ```
 2.  **Install Dependencies:**
