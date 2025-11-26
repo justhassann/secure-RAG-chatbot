@@ -1,0 +1,56 @@
+Software Approval and Licensing
+
+Software Request Process
+Submit software requests through IT portal including software name, purpose, cost, and business justification.
+
+IT evaluates requests for security, compatibility, licensing, and business need. Approval typically takes 3-5 business days.
+
+Security Review
+All software undergoes security review before approval. Review includes vulnerability assessment, vendor reputation, and data handling practices.
+
+Open source software requires additional review of license terms and community support. Some licenses may not be compatible with commercial use.
+
+Licensing Compliance
+Use only properly licensed software. Don't install personal licenses on company devices or use company licenses on personal devices.
+
+Track license usage to ensure compliance. Unused licenses should be reclaimed and reassigned.
+
+Approved Software List
+Consult approved software list in IT portal before requesting new software. Approved software has completed security review and has active licenses.
+
+Standard software is pre-installed on company devices. Request installation of approved software through IT portal.
+
+Prohibited Software
+Don't install: Pirated software, peer-to-peer file sharing, remote access tools (except approved), cryptocurrency miners, or software from untrusted sources.
+
+Prohibited software will be removed if detected. Violations may result in disciplinary action.
+
+Software Updates
+Keep all software updated to latest stable version. Enable automatic updates where possible. Critical security updates are mandatory.
+
+IT may push updates remotely for security patches. Don't disable or postpone critical updates.
+
+Cloud Software and SaaS
+Cloud software requests follow same approval process. Additional considerations: data residency, vendor security practices, integration requirements.
+
+Use SSO for cloud software when available. Ensure proper offboarding procedures for cloud access.
+
+Open Source Software
+Open source software requires review of license terms (GPL, MIT, Apache, etc.). Some licenses have restrictions on commercial use or require source code disclosure.
+
+Evaluate community support and update frequency. Abandoned projects pose security risks.
+
+Software License Management
+IT maintains software license inventory. License audits conducted annually. Ensure you're using assigned licenses correctly.
+
+Report unused software for license reclamation. Don't share licenses or install on multiple devices unless license permits.
+
+Vendor Management
+Software vendors must complete security questionnaire and sign data protection agreements. Vendor risk is assessed based on data access and criticality.
+
+Maintain vendor contact information for support and security notifications.
+
+Trial Software
+Trial software requires same approval as purchased software. Trials must have defined evaluation period and decision criteria.
+
+Remove trial software after evaluation period if not purchasing. Don't use trial software for production work.

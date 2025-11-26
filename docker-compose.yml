@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: corporate-chatbot
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=Secure Corporate Chatbot with RAG
+      - OLLAMA_URL=http://ollama:11434/api/chat
+      - MODEL_NAME=llama3.1
+      - KB_ROOT=knowledge_base
+      - ALLOWED_ORIGINS=http://localhost:8000
+      - RATE_LIMIT_CHAT=5/minute
+      - RATE_LIMIT_RAG_RELOAD=5/minute
+      - LOG_LEVEL=INFO
+      - SECRET_KEY=your-secret-key-change-in-production
+      - ALGORITHM=HS256
+      - ACCESS_TOKEN_EXPIRE_MINUTES=30
+      - DATABASE_URL=sqlite+aiosqlite:///./app.db
+    volumes:
+      - ./app.db:/app/app.db
+      - ./knowledge_base:/app/knowledge_base
+    depends_on:
+      ollama:
+        condition: service_healthy
+    networks:
+      - chatbot-network
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama-server
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    networks:
+      - chatbot-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  ollama-setup:
+    image: ollama/ollama:latest
+    container_name: ollama-setup
+    depends_on:
+      ollama:
+        condition: service_healthy
+    networks:
+      - chatbot-network
+    entrypoint: /bin/sh
+    command: >
+      -c "
+      echo '🤖 Pulling llama3.1 model...' &&
+      ollama pull llama3.1 &&
+      echo '✅ Model ready!'
+      "
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    restart: "no"
+
+volumes:
+  ollama-data:
+    driver: local
+
+networks:
+  chatbot-network:
+    driver: bridge

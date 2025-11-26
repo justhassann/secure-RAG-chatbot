@@ -1,0 +1,61 @@
+Financial Controls and Procedures
+
+Segregation of Duties
+No single person controls all aspects of a financial transaction. Separate: Authorization, recording, custody, reconciliation.
+
+Reduces fraud risk and errors. Small teams may require compensating controls like management review.
+
+Authorization Controls
+Transactions require appropriate authorization based on amount and type. Authorization matrix defines approval authorities.
+
+Approvers verify business purpose, budget availability, and policy compliance. Document approvals in system.
+
+Reconciliation Procedures
+Bank reconciliations performed monthly within 10 days of month-end. Investigate and resolve discrepancies promptly.
+
+Account reconciliations for all balance sheet accounts. Reconciler and reviewer must be different people.
+
+Cash Handling
+Minimize cash transactions - use electronic payments when possible. Cash receipts deposited daily.
+
+Cash counts performed by two people. Cash access restricted to authorized personnel. Surprise cash counts conducted periodically.
+
+Payment Controls
+Payments require approved invoice, PO, and receiving confirmation (3-way match). Verify vendor banking details before first payment.
+
+Dual approval for payments over $25000. Positive pay system prevents check fraud. ACH payments require dual authorization.
+
+Revenue Recognition
+Revenue recognized when earned and realizable per accounting standards. Document revenue recognition criteria for each revenue stream.
+
+Review contracts for revenue recognition implications. Deferred revenue for advance payments.
+
+Expense Accruals
+Accrue expenses incurred but not yet invoiced. Review accruals monthly for accuracy. Reverse accruals when invoice received.
+
+Estimate accruals based on contracts, POs, or historical patterns. Document accrual methodology.
+
+Asset Management
+Maintain fixed asset register with acquisition date, cost, location, and depreciation. Tag physical assets for tracking.
+
+Annual physical inventory of assets. Investigate missing assets. Dispose of obsolete assets properly with approval.
+
+Journal Entry Controls
+Journal entries require supporting documentation and business purpose. Unusual or complex entries require additional review.
+
+Restrict journal entry access to accounting personnel. Management reviews significant entries. Audit trail maintained.
+
+Month-End Close Process
+Standardized close process with checklist and deadlines. Close typically completes within 5 business days.
+
+Review financial statements for reasonableness. Investigate unusual variances. Document significant estimates and judgments.
+
+Financial Reporting
+Monthly financial statements prepared for management. Quarterly reports for board. Annual audited statements.
+
+Reports include: Income statement, balance sheet, cash flow, budget variance analysis. Narrative explanation of results.
+
+Internal Control Testing
+Periodic testing of key controls. Document control procedures. Test samples of transactions.
+
+Identify control deficiencies and remediate. Report significant deficiencies to audit committee.

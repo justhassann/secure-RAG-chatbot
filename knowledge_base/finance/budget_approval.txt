@@ -1,0 +1,61 @@
+Budget and Expenditure Approval Process
+
+Annual Budget Planning
+Department budgets prepared in Q4 for following fiscal year. Department heads submit budget proposals including headcount, operations, and capital expenses.
+
+Finance reviews proposals with department heads. Final budget approved by executive team and board in December.
+
+Budget Categories
+Personnel: Salaries, benefits, bonuses, contractors. Operations: Software, supplies, travel, training. Capital: Equipment, furniture, major purchases over $5000.
+
+Marketing: Campaigns, events, advertising. R&D: Research, prototypes, testing. Facilities: Rent, utilities, maintenance.
+
+Approval Thresholds
+Under $1000: Manager approval. $1000-$5000: Department head approval. $5000-$25000: VP approval. Over $25000: CFO approval.
+
+Unbudgeted expenses over $10000 require executive approval regardless of amount.
+
+Purchase Requisition Process
+Submit purchase requisition through finance portal with vendor, amount, budget code, and business justification.
+
+Attach quotes from at least 2 vendors for purchases over $5000. Approval routing based on amount and budget availability.
+
+Budget Tracking
+Managers receive monthly budget reports showing spend vs budget. Review reports for accuracy and address variances.
+
+Finance portal provides real-time budget visibility. Monitor spending throughout year to avoid overruns.
+
+Budget Transfers
+Transfer budget between categories within department with department head approval. Transfers between departments require VP approval.
+
+Submit transfer request with justification. Transfers processed within 3 business days.
+
+Unbudgeted Expenses
+Unbudgeted expenses require special approval and justification. Identify funding source (budget surplus, contingency, or budget increase).
+
+Emergency expenses can be approved quickly with executive approval. Document business need and impact of not approving.
+
+Capital Expenditures
+Capital expenses (over $5000, useful life over 1 year) require capital approval process. Submit capital request with ROI analysis and alternatives considered.
+
+Capital budget reviewed quarterly. Approved capital projects tracked separately from operational budget.
+
+Budget Amendments
+Budget amendments for significant changes require executive approval. Submit amendment request with revised forecast and explanation of changes.
+
+Amendments typically processed quarterly. Mid-year amendments for urgent needs can be expedited.
+
+Vendor Selection
+Competitive bidding required for purchases over $10000. Obtain at least 3 quotes. Select vendor based on price, quality, and service.
+
+Existing vendor relationships and strategic partnerships may justify sole-source procurement with approval.
+
+Contract Approval
+Contracts require legal review before signing. Finance reviews contracts for budget impact and payment terms.
+
+Signature authority based on contract value: Under $25000: Department head. $25000-$100000: VP. Over $100000: CFO or CEO.
+
+Budget Variance Analysis
+Significant variances (over 10% or $5000) require explanation. Submit variance analysis with corrective actions.
+
+Favorable variances may allow budget reallocation. Unfavorable variances may require spending freeze or budget cut.

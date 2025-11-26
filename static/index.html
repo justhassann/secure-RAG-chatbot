@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Secure Corporate Chatbot (Prototype)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <h1>Secure Corporate Chatbot (Prototype)</h1>
+      <span class="status-indicator" id="statusIndicator">Backend: Unknown</span>
+    </header>
+
+    <main class="chat-container">
+      <div id="messages" class="messages"></div>
+
+      <div class="input-panel">
+        <textarea
+          id="userInput"
+          rows="3"
+          placeholder="Type your question here..."
+        ></textarea>
+
+        <div class="controls">
+          <!-- model selector for later (we'll wire llama3.1 now, phi3 later) -->
+          <label>
+            Model:
+            <select id="modelSelect">
+              <option value="llama3.1" selected>llama3.1</option>
+              <option value="phi3">phi3</option>
+            </select>
+          </label>
+
+          <button id="sendBtn">Send</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

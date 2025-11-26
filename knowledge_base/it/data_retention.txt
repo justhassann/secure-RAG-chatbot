@@ -1,0 +1,51 @@
+Data Retention and Disposal Policy
+
+Retention Periods
+Email: 7 years. Financial records: 7 years. HR records: 7 years post-employment. Contracts: 7 years post-expiration.
+
+Project documents: 3 years post-completion. General business records: 3 years. Marketing materials: 1 year.
+
+Legal Hold
+Data subject to legal hold must be preserved regardless of retention period. Legal team will notify of legal holds.
+
+Don't delete or modify data under legal hold. Contact legal team with questions about legal hold scope.
+
+Data Classification and Retention
+Retention periods vary by data classification. Restricted data may have longer retention due to regulatory requirements.
+
+Consult data classification guide for specific retention requirements. When in doubt, contact compliance team.
+
+Email Retention
+Email is automatically archived after 90 days. Archived email remains searchable and accessible. Auto-deletion occurs after retention period.
+
+Don't use personal email for business communication - it's not captured by retention systems.
+
+File Storage Retention
+Files on network drives and cloud storage are retained per policy. Inactive files may be archived to reduce storage costs.
+
+Organize files logically and delete obsolete files. Don't hoard unnecessary data.
+
+Backup Retention
+Daily backups retained for 30 days. Weekly backups retained for 90 days. Monthly backups retained for 1 year.
+
+Backups are for disaster recovery, not long-term archival. Use proper document management for long-term retention.
+
+Data Disposal
+Data disposal must ensure data cannot be recovered. Use secure deletion tools for electronic data. Shred physical documents.
+
+IT handles disposal of devices and media. Don't throw devices in regular trash.
+
+End of Life Data
+When systems are decommissioned, data is migrated or securely deleted. Stakeholders are notified before decommissioning.
+
+Verify data migration completeness before old system deletion. Retain system documentation per retention policy.
+
+Personal Data Retention
+Personal data (employee, customer) is retained only as long as needed for business or legal purposes.
+
+Comply with data subject requests for deletion (right to be forgotten) unless legal obligation requires retention.
+
+Retention Compliance
+Compliance team audits retention practices annually. Departments must demonstrate compliance with retention policies.
+
+Violations may result in legal or regulatory penalties. Report retention concerns to compliance team.

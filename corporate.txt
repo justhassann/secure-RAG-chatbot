@@ -1,0 +1,35 @@
+| ID | Username   | Full Name      | Department | Role     | Job Title                   | AI Scopes                          | Privileges              |
+| -- | ---------- | -------------- | ---------- | -------- | --------------------------- | ---------------------------------- | ----------------------- |
+| 1  | intern.it  | Hamza Tariq    | IT         | Intern   | IT Support Intern           | general                            | own history             |
+| 2  | staff.it   | Ayesha Khan    | IT         | Staff    | IT Support Engineer         | general, it_policy                 | own history             |
+| 3  | tl.it      | Imran Siddiqui | IT         | TeamLead | IT Team Lead                | general, it_policy                 | own + team history      |
+| 4  | manager.it | Farhan Ali     | IT         | Manager  | IT Operations Manager       | general, it_policy, finance_policy | team history            |
+| 5  | sysadmin   | Omar Farooq    | IT         | SysAdmin | Senior System Administrator | all                                | manage KB, manage users |
+
+
+| ID | Username   | Full Name     | Department | Role       | Job Title         | AI Scopes                          |
+| -- | ---------- | ------------- | ---------- | ---------- | ----------------- | ---------------------------------- |
+| 6  | intern.hr  | Maryam Aftab  | HR         | Intern     | HR Intern         | general                            |
+| 7  | staff.hr   | Khadija Ahmed | HR         | HR_Officer | HR Officer        | general, hr_policy                 |
+| 8  | hr.lead    | Saira Gul     | HR         | TeamLead   | Senior HR Officer | general, hr_policy                 |
+| 9  | manager.hr | Nadeem Zahir  | HR         | Manager    | HR Manager        | general, hr_policy, finance_policy |
+| 10 | hr.exec    | Rabia Khan    | HR         | Executive  | HR Director       | all                                |
+
+| ID | Username    | Full Name     | Department | Role            | Job Title                 | AI Scopes                          |
+| -- | ----------- | ------------- | ---------- | --------------- | ------------------------- | ---------------------------------- |
+| 11 | intern.fin  | Danish Raza   | Finance    | Intern          | Finance Intern            | general                            |
+| 12 | fin.officer | Bilal Ahmed   | Finance    | Finance_Officer | Finance Officer           | general, finance_policy            |
+| 13 | fin.lead    | Mahnoor Javed | Finance    | TeamLead        | Senior Finance Specialist | general, finance_policy            |
+| 14 | manager.fin | Adnan Qureshi | Finance    | Manager         | Finance Manager           | general, finance_policy, it_policy |
+
+| ID | Username    | Full Name     | Department | Role            | Job Title                   | AI Scopes                              | Privileges                         |
+| -- | ----------- | ------------- | ---------- | --------------- | --------------------------- | -------------------------------------- | ---------------------------------- |
+| 15 | sec.intern  | Arsalan Rafiq | Security   | Intern          | Security Intern             | general                                |                                    |
+| 16 | sec.analyst | Zain Shah     | Security   | SecurityAnalyst | Security Analyst            | general, it_policy, security_incidents | view security alerts, partial logs |
+| 17 | sec.lead    | Moiz Hassan   | Security   | Manager         | Security Operations Manager | all                                    | view all alerts, partial logs      |
+
+| ID | Username    | Full Name     | Department | Role      | Job Title               | AI Scopes                                     | Privileges              |
+| -- | ----------- | ------------- | ---------- | --------- | ----------------------- | --------------------------------------------- | ----------------------- |
+| 18 | ops.manager | Fatima Noor   | Operations | Manager   | Operations Manager      | general, it_policy, hr_policy, finance_policy | team history            |
+| 19 | auditor     | Hina Iqbal    | Compliance | Auditor   | Internal Auditor        | all(read-only)                                | view all logs read-only |
+| 20 | ceo         | Muhammad Rauf | Executive  | Executive | Chief Executive Officer | all                                           | summary-view only       |

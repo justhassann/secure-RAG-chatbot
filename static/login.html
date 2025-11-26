@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corporate AI Assistant - Login</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-card">
+      <div class="login-header">
+        <h1>Corporate AI Assistant</h1>
+        <p class="subtitle">Internal Use Only – Secure Corporate Chatbot Gateway</p>
+      </div>
+
+      <div id="errorBanner" class="error-banner hidden"></div>
+
+      <form id="loginForm" class="login-form">
+        <div id="usernameGroup" class="form-group">
+          <label for="username">Username</label>
+          <input 
+            type="text" 
+            id="username" 
+            name="username" 
+            placeholder="Enter your username"
+            autocomplete="username"
+            required 
+          />
+        </div>
+
+        <div id="passwordGroup" class="form-group">
+          <label for="password">Password</label>
+          <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            placeholder="Enter your password"
+            autocomplete="current-password"
+            required 
+          />
+        </div>
+
+        <div id="totpGroup" class="form-group hidden">
+          <label for="totpCode">Two-Factor Code</label>
+          <input
+            type="text"
+            id="totpCode"
+            name="totpCode"
+            inputmode="numeric"
+            pattern="\\d{6}"
+            maxlength="6"
+            placeholder="Enter 6-digit code"
+          />
+          <small>Check your authenticator app for the 6-digit code.</small>
+        </div>
+
+        <button type="submit" id="submitBtn" class="btn-signin">Sign In</button>
+        <button type="button" id="backToLoginBtn" class="link-button hidden">Use a different account</button>
+      </form>
+
+      <div class="login-footer">
+        <p>Demo accounts: <code>admin / AdminPass123!</code>, <code>alice / AlicePass123!</code>, <code>bob / BobPass123!</code></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

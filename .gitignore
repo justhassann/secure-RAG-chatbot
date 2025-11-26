@@ -1,0 +1,37 @@
+# Python System Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Don't upload this!)
+venv/
+.venv/
+env/
+
+# Environment Variables (SECRETS - CRITICAL)
+.env
+.env.prod
+.env.dev
+
+# Database (Contains Data)
+*.db
+*.sqlite3
+app.db
+
+# SSL Certificates (SECRETS - CRITICAL)
+*.pem
+*.key
+*.crt
+key.pem
+cert.pem
+
+# OS Files
+.DS_Store
+
+# Logs
+*.log
+audit.log
+
+# IDE Settings
+.vscode/
+.idea/

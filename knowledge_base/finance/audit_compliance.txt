@@ -1,0 +1,61 @@
+Audit and Compliance Requirements
+
+Internal Audit Program
+Internal audit conducts regular audits of financial controls, operational processes, and compliance. Audit schedule published annually.
+
+Audits assess effectiveness of controls, identify risks, and recommend improvements. Audit findings tracked to resolution.
+
+External Audit
+Annual financial statement audit conducted by external auditors. Auditors review financial records, test controls, and issue opinion.
+
+Cooperate fully with auditors. Provide requested documentation promptly. Address audit findings in timely manner.
+
+Audit Preparation
+Maintain organized financial records. Document processes and controls. Ensure policies are current and followed.
+
+Conduct self-assessments before audits. Remediate known issues proactively. Assign audit coordinator for each department.
+
+Audit Process
+Auditors request documentation and conduct interviews. Provide accurate and complete information. Don't withhold or alter documents.
+
+Auditors test samples of transactions. Explain processes and controls. Document verbal explanations in writing.
+
+Audit Findings
+Findings categorized by severity: Critical (immediate action required), High (significant risk), Medium (moderate risk), Low (best practice).
+
+Management response required for all findings. Develop action plans with timelines. Track remediation progress.
+
+Regulatory Compliance
+Comply with applicable regulations: SOX (financial reporting), GDPR (data protection), industry-specific regulations.
+
+Compliance team monitors regulatory changes. Training provided on compliance requirements. Report compliance concerns immediately.
+
+Financial Controls
+Segregation of duties: Different people authorize, record, and reconcile transactions. Prevents fraud and errors.
+
+Approval authorities based on amount and transaction type. Regular reconciliations of accounts. Physical controls over assets.
+
+Documentation Requirements
+Maintain supporting documentation for all financial transactions. Retention periods vary by document type (typically 7 years).
+
+Documents must be complete, accurate, and readily accessible. Electronic documents acceptable if properly stored and backed up.
+
+Compliance Training
+Annual compliance training required for all employees. Role-specific training for finance, procurement, and management.
+
+Training covers: Code of conduct, anti-corruption, data protection, financial controls. Completion tracked and reported.
+
+Whistleblower Policy
+Report suspected fraud, waste, or abuse through ethics hotline (anonymous) or to compliance team.
+
+All reports investigated promptly and confidentially. Retaliation against whistleblowers strictly prohibited.
+
+Compliance Monitoring
+Ongoing monitoring of compliance with policies and regulations. Automated controls where possible. Regular management reviews.
+
+Compliance metrics reported to board quarterly. Trends analyzed to identify systemic issues.
+
+Remediation and Corrective Action
+Findings require corrective action plans with responsible parties and deadlines. Progress tracked and reported.
+
+Verify effectiveness of corrective actions. Repeat findings escalated to senior management. Persistent non-compliance may result in disciplinary action.

@@ -1,0 +1,61 @@
+Procurement and Purchasing Process
+
+Procurement Overview
+Procurement ensures we get best value while maintaining quality and compliance. All purchases must follow procurement process.
+
+Centralized procurement for common items (office supplies, equipment). Decentralized for specialized departmental needs.
+
+Purchase Request
+Submit purchase request through procurement portal with item description, quantity, estimated cost, and business justification.
+
+Include preferred vendor if applicable. Attach specifications or requirements document for technical purchases.
+
+Vendor Evaluation
+Procurement evaluates vendors on price, quality, delivery time, service, and financial stability. New vendors complete vendor registration and due diligence.
+
+Preferred vendor list maintained for common purchases. Using preferred vendors expedites approval process.
+
+Competitive Bidding
+Purchases over $10000 require competitive bidding. Procurement solicits quotes from at least 3 qualified vendors.
+
+Evaluation criteria: Price (40%), quality (30%), delivery (15%), service (15%). Award to vendor with best overall value.
+
+Purchase Orders
+Approved purchases generate purchase order (PO). PO sent to vendor as authorization to deliver goods/services.
+
+Don't commit to purchases without approved PO. Vendors should not deliver without valid PO number.
+
+Receiving and Inspection
+Receiving department inspects deliveries for quantity and quality. Report discrepancies or damage immediately.
+
+Sign delivery receipt only after inspection. Receiving report sent to procurement and finance for payment processing.
+
+Invoice Processing
+Vendors submit invoices to accounts payable. Invoices matched to PO and receiving report (3-way match).
+
+Discrepancies resolved before payment. Payment terms typically net 30 days. Early payment discounts taken when beneficial.
+
+Emergency Purchases
+Emergency purchases (system down, safety issue) can be expedited. Obtain verbal approval from authorized approver.
+
+Submit formal purchase request within 24 hours. Document emergency nature and business impact.
+
+Software and SaaS Procurement
+Software purchases require IT approval for technical compatibility and security. SaaS agreements reviewed for data protection and terms.
+
+Consider total cost of ownership including implementation, training, and ongoing support. Evaluate alternatives including open source.
+
+Contract Negotiation
+Procurement negotiates terms with vendors for large purchases. Legal reviews contracts before signing.
+
+Negotiate: Price, payment terms, delivery schedule, warranties, support, termination clauses. Document negotiation outcomes.
+
+Supplier Relationship Management
+Maintain positive relationships with key suppliers. Conduct annual supplier reviews for strategic vendors.
+
+Address performance issues promptly. Recognize excellent supplier performance. Diversify suppliers to reduce risk.
+
+Procurement Compliance
+Follow procurement policies and approval thresholds. Don't split purchases to avoid approval requirements.
+
+Conflicts of interest must be disclosed. Don't accept gifts or favors from vendors beyond nominal value ($50).

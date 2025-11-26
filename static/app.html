@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corporate AI Assistant</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>AI Assistant</h2>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active" data-view="chat">
+          <span class="nav-icon">💬</span>
+          <span>Chat</span>
+        </a>
+        <a href="#" class="nav-item" data-view="profile">
+          <span class="nav-icon">👤</span>
+          <span>My Profile</span>
+        </a>
+        <a href="#" class="nav-item admin-only hidden" data-view="admin">
+          <span class="nav-icon">⚙️</span>
+          <span>Admin</span>
+        </a>
+      </nav>
+      <div class="sidebar-footer">
+        <button id="logoutBtn" class="btn-logout">Logout</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Top Bar -->
+      <header class="top-bar">
+        <div class="top-bar-left">
+          <h1 id="viewTitle">AI Assistant</h1>
+        </div>
+        <div class="top-bar-right">
+          <div class="model-selector">
+            <label>Model:</label>
+            <select id="modelSelect">
+              <option value="llama3.1" selected>llama3.1</option>
+              <option value="phi3">phi3</option>
+            </select>
+          </div>
+          <button id="securityBtn" class="btn-secondary">Security Settings</button>
+          <div class="status-indicator" id="statusIndicator">
+            <span class="status-dot"></span>
+            <span id="statusText">Checking...</span>
+          </div>
+          <div class="user-profile-mini" id="userProfileMini">
+            <div class="avatar" id="userAvatar">U</div>
+            <div class="user-info">
+              <div class="user-name" id="userName">User</div>
+              <div class="user-role" id="userRole">Role</div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Content Area -->
+      <main class="content-area">
+        <!-- Chat View -->
+        <div id="chatView" class="view active">
+          <div class="chat-header">
+            <h2>AI Assistant</h2>
+            <div id="scopeBadges" class="scope-badges"></div>
+          </div>
+          <div id="messages" class="messages"></div>
+          <div class="input-panel">
+            <textarea
+              id="userInput"
+              rows="3"
+              placeholder="Type your question here..."
+            ></textarea>
+            <div class="controls">
+              <button id="sendBtn" class="btn-send">Send</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile View -->
+        <div id="profileView" class="view">
+          <div class="profile-card">
+            <div class="profile-header">
+              <div class="profile-avatar" id="profileAvatar">U</div>
+              <div class="profile-info">
+                <h2 id="profileName">User Name</h2>
+                <p id="profileTitle">Job Title</p>
+              </div>
+            </div>
+
+            <div class="profile-section">
+              <div class="profile-row">
+                <span class="profile-label">Role</span>
+                <span class="badge" id="profileRoleBadge">Role</span>
+              </div>
+              <div class="profile-row">
+                <span class="profile-label">Department</span>
+                <span class="badge badge-dept" id="profileDeptBadge">Department</span>
+              </div>
+              <div class="profile-row">
+                <span class="profile-label">Email</span>
+                <span id="profileEmail">email@company.com</span>
+              </div>
+              <div class="profile-row">
+                <span class="profile-label">Location</span>
+                <span id="profileLocation">Office</span>
+              </div>
+            </div>
+
+            <div class="profile-section">
+              <h3>AI Access</h3>
+              <div class="profile-row">
+                <span class="profile-label">Allowed Scopes</span>
+                <div id="profileScopes" class="scope-badges"></div>
+              </div>
+              <div class="profile-row">
+                <span class="profile-label">View Logs</span>
+                <span id="profileCanViewLogs" class="permission-badge">No</span>
+              </div>
+              <div class="profile-row">
+                <span class="profile-label">Manage Users</span>
+                <span id="profileCanManageUsers" class="permission-badge">No</span>
+              </div>
+              <div class="profile-row">
+                <span class="profile-label">Manage KB</span>
+                <span id="profileCanManageKB" class="permission-badge">No</span>
+              </div>
+            </div>
+
+            <div class="profile-section">
+              <h3>Usage Summary</h3>
+              <div class="usage-stats">
+                <div class="stat-item">
+                  <div class="stat-value">127</div>
+                  <div class="stat-label">Total Queries</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value">42</div>
+                  <div class="stat-label">This Week</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value">8.5</div>
+                  <div class="stat-label">Avg/Day</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Admin View (placeholder) -->
+        <div id="adminView" class="view">
+          <div class="placeholder-view">
+            <h2>Admin Panel</h2>
+            <p>Coming soon...</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Security Modal -->
+  <div id="securityModal" class="modal hidden">
+    <div class="modal-content">
+      <button id="closeSecurityModal" class="modal-close">&times;</button>
+      <h2>Security Settings</h2>
+      <p>Enable two-factor authentication (2FA) to protect access to your account.</p>
+
+      <div id="twofaStatus" class="info-banner">
+        2FA is not enabled for this session.
+      </div>
+
+      <div class="twofa-actions">
+        <button id="start2faBtn" class="btn-primary">Generate QR Code</button>
+      </div>
+
+      <div id="twofaSetupContainer" class="twofa-setup hidden">
+        <img id="twofaQrImage" alt="2FA QR Code" />
+        <p class="muted">Scan the QR code using your authenticator app, then enter the 6-digit code below.</p>
+        <input
+          type="text"
+          id="twofaVerifyCode"
+          maxlength="6"
+          inputmode="numeric"
+          placeholder="Enter 6-digit code"
+        />
+        <button id="verify2faBtn" class="btn-primary">Verify & Enable</button>
+        <div id="twofaFeedback" class="info-banner hidden"></div>
+      </div>
+    </div>
+  </div>
+  <div id="modalBackdrop" class="modal-backdrop hidden"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
